@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(87, 216, 87);
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area-texto {   
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto;
+    height: 250px;       
+    padding: 20px 20px;  
+}
+
+#cripto {
+    padding: 15px;
+}
+
+.area-copiar {   
+    float: right; 
+    display: grid;
+    grid-template-columns: 500px ;
+    grid-template-rows: auto;    
+    height: 250px;       
+    padding: 20px 20px;  
+}
+
+textarea {
+    resize: none; 
+}
+
+.btn-cripto {
+    display: flexbox;
+    float: left;    
+}
+
+.btn-descripto {
+    display: flexbox;
+    float: left;
+    margin-left: 10px;
+}
+
+.btn-copiar {
+    display: flexbox;
+    float: right;     
+}
+
+/* POPUPS */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border:  1px solid black;
+    text-align: center;  
+    padding: .44rem;
+    animation-duration: 100ms;
+  }
+  
+  .popup .popuptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 400%;
+    left: 230%;
+    margin-left: -80px;
+    font-size: .6rem;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn ease-in-out 1s;
+    animation: fadeIn ease-in-out 1s;
+  }
+
+.btn-cripto {
+    margin-left: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.btn-descripto {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.btn-copiar {
+    display: inline-block;
+    margin-left: 400px;    
+    background-color: blue;
+    color: white;
+
+}
+
+.btn-cripto:hover {
+    background-color: rgb(105, 105, 141);
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn-descripto:hover {
+    background-color: rgb(226, 76, 76);
+    color: whitesmoke;
+    transform: scale(1.05);
+}
+
+.btn-copiar:hover {
+    background-color: rgb(105, 105, 141);
+    color: white;
+    transform: scale(1.05);
+}
+
+.footer {
+    display: inline-block;
+    margin-top: 200px;    
+    font-family: serif;
+    font-size: 14px;
+}
