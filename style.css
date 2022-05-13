@@ -38,7 +38,7 @@ h6 {
 }
 
 .btn-cripto {    
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: darkblue;
     color: white;
     padding: 10px 10px;
@@ -53,7 +53,7 @@ h6 {
 }
 
 .btn-descripto {    
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: darkcyan;
     color: white;
     padding: 10px 10px;
@@ -106,12 +106,6 @@ h6 {
     text-align: center;
 } 
 
-footer {
- 
-    text-align: center;
-    background-color: var(--third-gradient-color);
-    color: black;
-}
 strong {
     margin-left: 8px;
 }
@@ -120,7 +114,7 @@ strong {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 .page-info a:hover{
     border-bottom: 1px black solid ;
