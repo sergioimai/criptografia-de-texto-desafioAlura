@@ -9,12 +9,17 @@
 </head>
 
 <body>
-    <header><img class="imagemLogo" src="./imagens/logo_alura.png"><h1>Criptografia de Texto</h1></header>
+    <header>
+        <a href="https://www.alura.com.br/" target="_blank">
+            <img class="imagemLogo" src="/imagens/logo_alura.png" alt="logo alura">
+        </a>
+            <h1>Criptografia de Texto</h1>
+    </header>
+    
     <main>
         <section class="inputTexto">
             <textarea class="input-texto" cols="60" rows="9" placeholder="Digite ou cole seu texto aqui!!!"></textarea>
             <div>
-            <h6>*Quando o texto for descriptografado, o texto ficará sem acentos e letras minúsculas.</h6> 
             <button class="btn-cripto" onclick="btnCripto()">Criptografar</button>
             <button class="btn-descripto" onclick="btnDescripto()">Descriptografar</button>
             </div>
@@ -26,7 +31,15 @@
         </section>    
     </main>       
 
-    <footer class="footer">Elaborado por Sérgio Imai - 2022</footer>
+    <footer class="footer">
+        <div class="page-info">&copy; Created by:<strong>Sérgio Imai</strong> </div>
+        <a href="https://github.com/sergioimai" target="_blank">
+            <img src="/imagens/github-logo.png" width="45px" alt="github logo">
+        </a>
+        <a href="https://www.linkedin.com/in/sergio-imai-89763110a/" target="_blank">
+            <img src="/imagens/linkedin-logo.png" width="30px" alt="linkedin logo">
+        </a>        
+    </footer>
 
     <script src="script.js"></script>    
 </body>
