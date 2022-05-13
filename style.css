@@ -30,14 +30,15 @@ main {
     border-radius: 10px;
     width: 60%;
     opacity: 1;
-    box-shadow: 2px 3px 8px 8px #000000;
+    box-shadow: 2px 3px 8px 8px #141414d5;
 }
 
 h6 {
     font-size: 10px;
 }
 
-.btn-cripto {
+.btn-cripto {    
+    margin-top: 20px;
     background-color: darkblue;
     color: white;
     padding: 10px 10px;
@@ -51,7 +52,8 @@ h6 {
     transform: scale(1.05);
 }
 
-.btn-descripto {
+.btn-descripto {    
+    margin-top: 20px;
     background-color: darkcyan;
     color: white;
     padding: 10px 10px;
@@ -76,7 +78,7 @@ h6 {
     border: none;
     border-radius: 10px;
     opacity: 1;
-    box-shadow: 2px 3px 8px 8px #000000;
+    box-shadow: 2px 3px 8px 8px #141414d5;
     background-image: url("imagens/lupa.png");
     background-repeat: no-repeat;
 }
@@ -102,7 +104,29 @@ h6 {
     font-size: 18px;
     font-weight: bolder;
     text-align: center;
+} 
+
+footer {
+ 
+    text-align: center;
+    background-color: var(--third-gradient-color);
+    color: black;
 }
+strong {
+    margin-left: 8px;
+}
+.page-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+}
+.page-info a:hover{
+    border-bottom: 1px black solid ;
+}
+
+
 
 /* responsivo */
 
@@ -121,16 +145,14 @@ h6 {
         flex-wrap: wrap;
         font-size: 1rem;
     }
-    h6 {      
-        font-size: 0.4rem;
-    }
-
     .btn-cripto, .btn-descripto {
-        margin-top: auto;
+        margin-top: 20px;
     }
     .footer {
         font-size: small;
     }
     }
+
+   
 
    
