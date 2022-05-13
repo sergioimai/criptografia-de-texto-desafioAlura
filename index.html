@@ -4,45 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">       
     <title>Criptografia</title>
 </head>
+
 <body>
+    <header><img class="imagemLogo" src="imagens/logo_alura.png"><h1>Criptografia de Texto</h1></header>
     <main>
-        <h1>Criptografe seu texto</h1>
+        <section class="inputTexto">
+            <textarea class="input-texto" cols="60" rows="9" placeholder="Digite ou cole seu texto aqui!!!"></textarea>
+            <div>
+            <h6>*Quando o texto for descriptografado, o texto ficará sem acentos e letras minúsculas.</h6> 
+            <button class="btn-cripto" onclick="btnCripto()">Criptografar</button>
+            <button class="btn-descripto" onclick="btnDescripto()">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="50" rows="15"></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </section>    
+    </main>       
 
-            <div class="area-texto">      
-                <textarea id="cripto" placeholder=" Digite ou cole seu texto aqui...">
-                </textarea> 
-                <p>* Utilize letras minúsculas e sem acentos</p>
-            </div>    
+    <footer class="footer">Elaborado por Sérgio Imai - 2022</footer>
 
-                <div class="btn-cripto">
-                    <div class="popup" onclick="criptografia()">Criptografar
-                        <span class="popuptext" id="popUp">Por favor, insira um texto!</span>
-                    </div>
-                </div>    
-
-                <div class="btn-descripto">
-                    <div class="popup" onclick="descriptografia()">Descriptografar
-                        <span class="popuptext" id="popUp">Por favor, insira um texto!</span>
-                    </div>               
-            
-                </div>     
-            </div>               
-                        
-                <div class="area-copiar">
-                    <textarea id="descripto" placeholder="Texto a ser copiado..."></textarea>
-                </div>   
-
-                    <div class="btn-copiar">
-                        <div class="popup" onclick="copiar()">Copiar Texto</div>
-                    </div> 
-        </main>
-
-        <footer class="footer">            
-            <p>Elaborado por Sérgio Imai</p>            
-        </footer>
+    <script src="script.js"></script>    
 </body>
 </html>
